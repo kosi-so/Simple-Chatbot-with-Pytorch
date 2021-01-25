@@ -1,4 +1,4 @@
-# Simple-Chatbot-with-Pytorch
+# Simple Chatbot with Pytorch
 Created a chatbot using a Recurent Sequence to sequence model that were trained on movie scripts from the "Cornell movie dialogs Corpus". 
 
 ## Data Preprocessing
@@ -17,4 +17,7 @@ The Encoder takes the input statement and encodes it, this encoded vector is the
 
 ### Decoder 
 The Decoder generates the response to the input statement. It takes the encoded vector from the Encoder as input to generate the words that will serve as the response of the chatbot. 
+
+## Training Model
+A Negative Log likelihood is used to calculate the training loss. Adam Optimizer is used to update the parameters of the model. 
 
