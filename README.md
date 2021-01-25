@@ -8,3 +8,9 @@ Created a chatbot using a Recurent Sequence to sequence model that were trained 
 ## Building Model
 A Sequence-to-Sequence model was used to create this chatbot. Two RNN were used here; the Encoder and the Decoder. The Encoder takes the input sentence fed into the chatbot and encodes it before feeding it to the decoder which then  creates a reply. 
 
+![Screenshot](seq2seq_ts.png)
+image source: https://jeddy92.github.io/JEddy92.github.io/ts_seq2seq_intro/
+
+#Encoder 
+The Encoder is a bi-directional multi-layered GRU. Used a bi-directional GRU to be able to encode both future and past context. 
+
