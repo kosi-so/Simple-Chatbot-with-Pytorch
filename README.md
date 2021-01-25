@@ -11,6 +11,10 @@ A Sequence-to-Sequence model was used to create this chatbot. Two RNN were used 
 ![Screenshot](seq2seq_ts.png)
 image source: https://jeddy92.github.io/JEddy92.github.io/ts_seq2seq_intro/
 
-#Encoder 
+### Encoder 
 The Encoder is a bi-directional multi-layered GRU. Used a bi-directional GRU to be able to encode both future and past context. 
+The Encoder takes the input statement and encodes it, this encoded vector is then passed into the Decoder. 
+
+### Decoder 
+The Decoder generates the response to the input statement. It takes the encoded vector from the Encoder as input to generate the words that will serve as the response of the chatbot. 
 
