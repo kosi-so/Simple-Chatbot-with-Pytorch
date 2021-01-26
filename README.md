@@ -20,4 +20,10 @@ The Decoder generates the response to the input statement. It takes the encoded 
 
 ## Training Model
 A Negative Log likelihood is used to calculate the training loss. Adam Optimizer is used to update the parameters of the model. 
+Gradients clipping and Teacher forcing were used to facilitate the training process. 
 
+## Acknowledgement
+1. Yuan-Kuei Wu’s pytorch-chatbot implementation: https://github.com/ywk991112/pytorch-chatbot
+2. Sean Robertson’s practical-pytorch seq2seq-translation example: https://github.com/spro/practical-pytorch/tree/master/seq2seq-translation
+3. FloydHub’s Cornell Movie Corpus preprocessing code: https://github.com/floydhub/textutil-preprocess-cornell-movie-corpus
+4. Chatbot Tutorial by Matthew Inkawhich https://pytorch.org/tutorials/beginner/chatbot_tutorial.html#define-training-procedure
