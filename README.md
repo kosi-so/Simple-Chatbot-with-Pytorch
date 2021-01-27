@@ -28,7 +28,7 @@ Evaluation here means how to get the chatbot to give responses when you input a 
 ## Testing Chatbot
 Below is a breif conversation with the chatbot 
 
-![Screenshot](Chatbot_chat.PNG)
+![Screenshot](Chatbot.PNG)
 
 # Acknowledgement
 1. Yuan-Kuei Wu’s pytorch-chatbot implementation: https://github.com/ywk991112/pytorch-chatbot
